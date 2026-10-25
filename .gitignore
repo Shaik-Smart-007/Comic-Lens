@@ -1,0 +1,41 @@
+# Environment & secrets (CRITICAL: never commit your real API keys)
+.env
+*.env
+!.env.example
+
+# Python virtual environment & bytecode
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Streamlit local runtime state
+.streamlit/
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Node & AI Studio container artifacts (if running hybrid)
+node_modules/
+dist/
+.playwright-cli/
+
+.aistudio.env
+.env.*
+!.env.example
+node_modules/
+dist/
+.venv/
+__pycache__/
+.env
+.env.*
+!.env.example
+
+# Google AI Studio temporary artifacts
+.aistudio/artifacts/
